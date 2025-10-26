@@ -33,10 +33,10 @@ public class App {
         System.out.println("Arreglo Original:");
         insercion.printArray(numeros);
         System.out.println("Arreglo Ordenado ascendente:");
-        insercion.sortInsertionAscendente(numeros, true);
+        insercion.sortInsertionAscendente(numeros, false);
         insercion.printArray(numeros);
         System.out.println("Arreglo Ordenado descendente:");
-        insercion.sortInsertionDescendente(numeros, true);
+        insercion.sortInsertionDescendente(numeros, false);
         insercion.printArray(numeros);
         System.out.println();
          
@@ -47,7 +47,7 @@ public class App {
         System.out.println("Arreglo Original:");
         insercion.printArrayName(nombres);
         System.out.println("Arreglo Ordenado :");
-        insercion.sortByName(nombres, true);
+        insercion.sortByName(nombres, false);
         insercion.printArrayName(nombres);
         System.out.println();
         
